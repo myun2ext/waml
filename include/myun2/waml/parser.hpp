@@ -7,6 +7,9 @@ namespace myun2
 	{
 		class parser
 		{
+		public:
+			static document parse(const char* s) {
+			}
 		};
 	}
 }
