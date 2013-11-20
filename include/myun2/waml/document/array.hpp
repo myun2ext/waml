@@ -2,14 +2,18 @@
 #define __github_com_myun2__waml__document__array_HPP__
 
 #include <vector>
+#include "myun2/waml/document/node.hpp"
 
 namespace myun2
 {
 	namespace waml
 	{
-		class array_type
+		/*struct array
 		{
-		};
+			using ::std::vector;
+			vector<node> 
+		};*/
+		typedef ::std::vector<node> array;
 	}
 }
 

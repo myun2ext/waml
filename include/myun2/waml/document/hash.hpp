@@ -2,14 +2,16 @@
 #define __github_com_myun2__waml__document__hash_HPP__
 
 #include <map>
+#include "myun2/waml/document/node.hpp"
 
 namespace myun2
 {
 	namespace waml
 	{
-		class hash_type
+		/*class hash_type
 		{
-		};
+		};*/
+		typedef ::std::map<::std::string, node> hash;
 	}
 }
 
